@@ -1,0 +1,22 @@
+{
+  "name": "Awesome Chrome Extension",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Lorem ipsum sit amet",
+  "homepage_url": "https://twitter.com/ademilter",
+  "icons": {
+    "128": "icons/icon-128.png"
+  },
+  "browser_action": {
+    "default_title": "Extension title"
+  },
+  "background": {
+    "persistent": true,
+    "scripts": [
+      "init.js"
+    ]
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
